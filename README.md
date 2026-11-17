@@ -11,3 +11,17 @@ Stable releases contain a matching MSI, portable ZIP and SHA256SUMS.txt. Verify 
 Descriptor-aware installed versions check stable GitHub releases, download and verify their matching package, then prompt you to save work and restart to update.
 
 AI and account usage require authenticated Cloud sign-in. Provider and storage credentials remain on the server. The release-publishing credential is stored in the private source repository's Actions secrets.
+
+<!-- photo-sorting-release-assets:start -->
+## Release assets
+
+Each published stable version contains these verified Windows downloads.
+
+- `PhotoSorting-X.Y.Z-portable.zip`
+- `PhotoSorting-X.Y.Z-x64.msi`
+- `SHA256SUMS.txt`
+
+The application verifies the matching package before offering Restart and update.
+
+Publisher access last verified 2026-11-17T12:31:41.619Z.
+<!-- photo-sorting-release-assets:end -->
