@@ -1,27 +1,18 @@
 # Photo Sorting for Windows
 
-This repository hosts official versioned Windows installers, portable packages, release notes and SHA-256 checksums. Application source is maintained separately.
+Select photos from a folder, add comments and milestones, and export a Word report.
 
-Download published versions from [Releases](https://github.com/nenglish42/Photo-Sorting-Releases/releases). The first release is being prepared; no installer is published yet.
+## Download
 
-Choose the x64 MSI for a per-user Windows installation, or extract the complete portable ZIP into its own folder. Development Python is not required. Keep distribution.json beside PhotoSorting.exe and the _internal folder.
+Open [Releases](https://github.com/nenglish42/Photo-Sorting-Releases/releases) and choose a package under **Assets**.
 
-Stable releases contain a matching MSI, portable ZIP and SHA256SUMS.txt. Verify the downloaded package against the published SHA-256 before installation.
+- **Windows installer (.msi)** — Install Photo Sorting for your Windows account, then open it from the Start menu.
+- **Portable (.zip)** — Extract the entire ZIP into its own folder, then open `PhotoSorting.exe`.
 
-Descriptor-aware installed versions check stable GitHub releases, download and verify their matching package, then prompt you to save work and restart to update.
+Each release includes `SHA256SUMS.txt` for checking your download.
 
-AI and account usage require authenticated Cloud sign-in. Provider and storage credentials remain on the server. The release-publishing credential is stored in the private source repository's Actions secrets.
+## Getting started
 
-<!-- photo-sorting-release-assets:start -->
-## Release assets
+Sign in with your Photo Sorting account and open a photo folder. Select the photos you want to include, then open **Report** to export them to Word.
 
-Each published stable version contains these verified Windows downloads.
-
-- `PhotoSorting-X.Y.Z-portable.zip`
-- `PhotoSorting-X.Y.Z-x64.msi`
-- `SHA256SUMS.txt`
-
-The application verifies the matching package before offering Restart and update.
-
-Publisher access last verified 2026-11-17T12:31:41.619Z.
-<!-- photo-sorting-release-assets:end -->
+To look for a newer version, choose **Help → Check for updates**. Save your work before restarting to install an update.
